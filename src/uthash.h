@@ -24,6 +24,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef UTHASH_H
 #define UTHASH_H
 
+/* NOLINTBEGIN */
+
 #define UTHASH_VERSION 2.3.0
 
 #include <string.h>   /* memcmp, memset, strlen */
@@ -1136,3 +1138,5 @@ typedef struct UT_hash_handle {
 } UT_hash_handle;
 
 #endif /* UTHASH_H */
+
+/* NOLINTEND */
